@@ -1,0 +1,1288 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`MarketList Component should render MarketList 1`] = `
+<MarketList
+  code="ABC"
+  market={
+    Object {
+      "close": 2,
+      "high": 3,
+      "low": 1,
+      "open": 1,
+    }
+  }
+>
+  <Styled(WithStyles(ForwardRef(TextField)))
+    InputProps={
+      Object {
+        "readOnly": true,
+      }
+    }
+    defaultValue={1}
+    id="ABC-open"
+    label="Open"
+    variant="outlined"
+  >
+    <WithStyles(ForwardRef(TextField))
+      InputProps={
+        Object {
+          "readOnly": true,
+        }
+      }
+      className="sc-AxjAm inMfCq"
+      defaultValue={1}
+      id="ABC-open"
+      label="Open"
+      variant="outlined"
+    >
+      <ForwardRef(TextField)
+        InputProps={
+          Object {
+            "readOnly": true,
+          }
+        }
+        className="sc-AxjAm inMfCq"
+        classes={
+          Object {
+            "root": "MuiTextField-root",
+          }
+        }
+        defaultValue={1}
+        id="ABC-open"
+        label="Open"
+        variant="outlined"
+      >
+        <WithStyles(ForwardRef(FormControl))
+          className="MuiTextField-root sc-AxjAm inMfCq"
+          color="primary"
+          disabled={false}
+          error={false}
+          fullWidth={false}
+          required={false}
+          variant="outlined"
+        >
+          <ForwardRef(FormControl)
+            className="MuiTextField-root sc-AxjAm inMfCq"
+            classes={
+              Object {
+                "fullWidth": "MuiFormControl-fullWidth",
+                "marginDense": "MuiFormControl-marginDense",
+                "marginNormal": "MuiFormControl-marginNormal",
+                "root": "MuiFormControl-root",
+              }
+            }
+            color="primary"
+            disabled={false}
+            error={false}
+            fullWidth={false}
+            required={false}
+            variant="outlined"
+          >
+            <div
+              className="MuiFormControl-root MuiTextField-root sc-AxjAm inMfCq"
+            >
+              <WithStyles(ForwardRef(InputLabel))
+                htmlFor="ABC-open"
+                id="ABC-open-label"
+              >
+                <ForwardRef(InputLabel)
+                  classes={
+                    Object {
+                      "animated": "MuiInputLabel-animated",
+                      "asterisk": "MuiInputLabel-asterisk",
+                      "disabled": "Mui-disabled",
+                      "error": "Mui-error",
+                      "filled": "MuiInputLabel-filled",
+                      "focused": "Mui-focused",
+                      "formControl": "MuiInputLabel-formControl",
+                      "marginDense": "MuiInputLabel-marginDense",
+                      "outlined": "MuiInputLabel-outlined",
+                      "required": "Mui-required",
+                      "root": "MuiInputLabel-root",
+                      "shrink": "MuiInputLabel-shrink",
+                    }
+                  }
+                  htmlFor="ABC-open"
+                  id="ABC-open-label"
+                >
+                  <WithStyles(ForwardRef(FormLabel))
+                    className="MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-shrink MuiInputLabel-outlined"
+                    classes={
+                      Object {
+                        "asterisk": "MuiInputLabel-asterisk",
+                        "disabled": "Mui-disabled",
+                        "error": "Mui-error",
+                        "focused": "Mui-focused",
+                        "required": "Mui-required",
+                      }
+                    }
+                    data-shrink={true}
+                    htmlFor="ABC-open"
+                    id="ABC-open-label"
+                  >
+                    <ForwardRef(FormLabel)
+                      className="MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-shrink MuiInputLabel-outlined"
+                      classes={
+                        Object {
+                          "asterisk": "MuiFormLabel-asterisk MuiInputLabel-asterisk",
+                          "colorSecondary": "MuiFormLabel-colorSecondary",
+                          "disabled": "Mui-disabled Mui-disabled",
+                          "error": "Mui-error Mui-error",
+                          "filled": "MuiFormLabel-filled",
+                          "focused": "Mui-focused Mui-focused",
+                          "required": "Mui-required Mui-required",
+                          "root": "MuiFormLabel-root",
+                        }
+                      }
+                      data-shrink={true}
+                      htmlFor="ABC-open"
+                      id="ABC-open-label"
+                    >
+                      <label
+                        className="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-shrink MuiInputLabel-outlined MuiFormLabel-filled"
+                        data-shrink={true}
+                        htmlFor="ABC-open"
+                        id="ABC-open-label"
+                      >
+                        Open
+                      </label>
+                    </ForwardRef(FormLabel)>
+                  </WithStyles(ForwardRef(FormLabel))>
+                </ForwardRef(InputLabel)>
+              </WithStyles(ForwardRef(InputLabel))>
+              <WithStyles(ForwardRef(OutlinedInput))
+                autoFocus={false}
+                defaultValue={1}
+                fullWidth={false}
+                id="ABC-open"
+                label={
+                  <React.Fragment>
+                    Open
+                  </React.Fragment>
+                }
+                multiline={false}
+                readOnly={true}
+              >
+                <ForwardRef(OutlinedInput)
+                  autoFocus={false}
+                  classes={
+                    Object {
+                      "adornedEnd": "MuiOutlinedInput-adornedEnd",
+                      "adornedStart": "MuiOutlinedInput-adornedStart",
+                      "colorSecondary": "MuiOutlinedInput-colorSecondary",
+                      "disabled": "Mui-disabled",
+                      "error": "Mui-error",
+                      "focused": "Mui-focused",
+                      "input": "MuiOutlinedInput-input",
+                      "inputAdornedEnd": "MuiOutlinedInput-inputAdornedEnd",
+                      "inputAdornedStart": "MuiOutlinedInput-inputAdornedStart",
+                      "inputMarginDense": "MuiOutlinedInput-inputMarginDense",
+                      "inputMultiline": "MuiOutlinedInput-inputMultiline",
+                      "marginDense": "MuiOutlinedInput-marginDense",
+                      "multiline": "MuiOutlinedInput-multiline",
+                      "notchedOutline": "MuiOutlinedInput-notchedOutline",
+                      "root": "MuiOutlinedInput-root",
+                    }
+                  }
+                  defaultValue={1}
+                  fullWidth={false}
+                  id="ABC-open"
+                  label={
+                    <React.Fragment>
+                      Open
+                    </React.Fragment>
+                  }
+                  multiline={false}
+                  readOnly={true}
+                >
+                  <WithStyles(ForwardRef(InputBase))
+                    autoFocus={false}
+                    classes={
+                      Object {
+                        "adornedEnd": "MuiOutlinedInput-adornedEnd",
+                        "adornedStart": "MuiOutlinedInput-adornedStart",
+                        "colorSecondary": "MuiOutlinedInput-colorSecondary",
+                        "disabled": "Mui-disabled",
+                        "error": "Mui-error",
+                        "focused": "Mui-focused",
+                        "input": "MuiOutlinedInput-input",
+                        "inputAdornedEnd": "MuiOutlinedInput-inputAdornedEnd",
+                        "inputAdornedStart": "MuiOutlinedInput-inputAdornedStart",
+                        "inputMarginDense": "MuiOutlinedInput-inputMarginDense",
+                        "inputMultiline": "MuiOutlinedInput-inputMultiline",
+                        "marginDense": "MuiOutlinedInput-marginDense",
+                        "multiline": "MuiOutlinedInput-multiline",
+                        "notchedOutline": null,
+                        "root": "MuiOutlinedInput-root",
+                      }
+                    }
+                    defaultValue={1}
+                    fullWidth={false}
+                    id="ABC-open"
+                    inputComponent="input"
+                    multiline={false}
+                    readOnly={true}
+                    renderSuffix={[Function]}
+                    type="text"
+                  >
+                    <ForwardRef(InputBase)
+                      autoFocus={false}
+                      classes={
+                        Object {
+                          "adornedEnd": "MuiInputBase-adornedEnd MuiOutlinedInput-adornedEnd",
+                          "adornedStart": "MuiInputBase-adornedStart MuiOutlinedInput-adornedStart",
+                          "colorSecondary": "MuiInputBase-colorSecondary MuiOutlinedInput-colorSecondary",
+                          "disabled": "Mui-disabled Mui-disabled",
+                          "error": "Mui-error Mui-error",
+                          "focused": "Mui-focused Mui-focused",
+                          "formControl": "MuiInputBase-formControl",
+                          "fullWidth": "MuiInputBase-fullWidth",
+                          "input": "MuiInputBase-input MuiOutlinedInput-input",
+                          "inputAdornedEnd": "MuiInputBase-inputAdornedEnd MuiOutlinedInput-inputAdornedEnd",
+                          "inputAdornedStart": "MuiInputBase-inputAdornedStart MuiOutlinedInput-inputAdornedStart",
+                          "inputHiddenLabel": "MuiInputBase-inputHiddenLabel",
+                          "inputMarginDense": "MuiInputBase-inputMarginDense MuiOutlinedInput-inputMarginDense",
+                          "inputMultiline": "MuiInputBase-inputMultiline MuiOutlinedInput-inputMultiline",
+                          "inputTypeSearch": "MuiInputBase-inputTypeSearch",
+                          "marginDense": "MuiInputBase-marginDense MuiOutlinedInput-marginDense",
+                          "multiline": "MuiInputBase-multiline MuiOutlinedInput-multiline",
+                          "root": "MuiInputBase-root MuiOutlinedInput-root",
+                        }
+                      }
+                      defaultValue={1}
+                      fullWidth={false}
+                      id="ABC-open"
+                      inputComponent="input"
+                      multiline={false}
+                      readOnly={true}
+                      renderSuffix={[Function]}
+                      type="text"
+                    >
+                      <div
+                        className="MuiInputBase-root MuiOutlinedInput-root MuiInputBase-formControl"
+                        onClick={[Function]}
+                      >
+                        <input
+                          aria-invalid={false}
+                          autoFocus={false}
+                          className="MuiInputBase-input MuiOutlinedInput-input"
+                          defaultValue={1}
+                          disabled={false}
+                          id="ABC-open"
+                          onAnimationStart={[Function]}
+                          onBlur={[Function]}
+                          onChange={[Function]}
+                          onFocus={[Function]}
+                          readOnly={true}
+                          required={false}
+                          type="text"
+                        />
+                        <WithStyles(ForwardRef(NotchedOutline))
+                          className="MuiOutlinedInput-notchedOutline"
+                          label={
+                            <React.Fragment>
+                              Open
+                            </React.Fragment>
+                          }
+                          labelWidth={0}
+                          notched={true}
+                        >
+                          <ForwardRef(NotchedOutline)
+                            className="MuiOutlinedInput-notchedOutline"
+                            classes={
+                              Object {
+                                "legend": "PrivateNotchedOutline-legend-2",
+                                "legendLabelled": "PrivateNotchedOutline-legendLabelled-3",
+                                "legendNotched": "PrivateNotchedOutline-legendNotched-4",
+                                "root": "PrivateNotchedOutline-root-1",
+                              }
+                            }
+                            label={
+                              <React.Fragment>
+                                Open
+                              </React.Fragment>
+                            }
+                            labelWidth={0}
+                            notched={true}
+                          >
+                            <fieldset
+                              aria-hidden={true}
+                              className="PrivateNotchedOutline-root-1 MuiOutlinedInput-notchedOutline"
+                            >
+                              <legend
+                                className="PrivateNotchedOutline-legendLabelled-3 PrivateNotchedOutline-legendNotched-4"
+                              >
+                                <span>
+                                  Open
+                                </span>
+                              </legend>
+                            </fieldset>
+                          </ForwardRef(NotchedOutline)>
+                        </WithStyles(ForwardRef(NotchedOutline))>
+                      </div>
+                    </ForwardRef(InputBase)>
+                  </WithStyles(ForwardRef(InputBase))>
+                </ForwardRef(OutlinedInput)>
+              </WithStyles(ForwardRef(OutlinedInput))>
+            </div>
+          </ForwardRef(FormControl)>
+        </WithStyles(ForwardRef(FormControl))>
+      </ForwardRef(TextField)>
+    </WithStyles(ForwardRef(TextField))>
+  </Styled(WithStyles(ForwardRef(TextField)))>
+  <Styled(WithStyles(ForwardRef(TextField)))
+    InputProps={
+      Object {
+        "readOnly": true,
+      }
+    }
+    defaultValue={2}
+    id="ABC-close"
+    label="Close"
+    variant="outlined"
+  >
+    <WithStyles(ForwardRef(TextField))
+      InputProps={
+        Object {
+          "readOnly": true,
+        }
+      }
+      className="sc-AxjAm inMfCq"
+      defaultValue={2}
+      id="ABC-close"
+      label="Close"
+      variant="outlined"
+    >
+      <ForwardRef(TextField)
+        InputProps={
+          Object {
+            "readOnly": true,
+          }
+        }
+        className="sc-AxjAm inMfCq"
+        classes={
+          Object {
+            "root": "MuiTextField-root",
+          }
+        }
+        defaultValue={2}
+        id="ABC-close"
+        label="Close"
+        variant="outlined"
+      >
+        <WithStyles(ForwardRef(FormControl))
+          className="MuiTextField-root sc-AxjAm inMfCq"
+          color="primary"
+          disabled={false}
+          error={false}
+          fullWidth={false}
+          required={false}
+          variant="outlined"
+        >
+          <ForwardRef(FormControl)
+            className="MuiTextField-root sc-AxjAm inMfCq"
+            classes={
+              Object {
+                "fullWidth": "MuiFormControl-fullWidth",
+                "marginDense": "MuiFormControl-marginDense",
+                "marginNormal": "MuiFormControl-marginNormal",
+                "root": "MuiFormControl-root",
+              }
+            }
+            color="primary"
+            disabled={false}
+            error={false}
+            fullWidth={false}
+            required={false}
+            variant="outlined"
+          >
+            <div
+              className="MuiFormControl-root MuiTextField-root sc-AxjAm inMfCq"
+            >
+              <WithStyles(ForwardRef(InputLabel))
+                htmlFor="ABC-close"
+                id="ABC-close-label"
+              >
+                <ForwardRef(InputLabel)
+                  classes={
+                    Object {
+                      "animated": "MuiInputLabel-animated",
+                      "asterisk": "MuiInputLabel-asterisk",
+                      "disabled": "Mui-disabled",
+                      "error": "Mui-error",
+                      "filled": "MuiInputLabel-filled",
+                      "focused": "Mui-focused",
+                      "formControl": "MuiInputLabel-formControl",
+                      "marginDense": "MuiInputLabel-marginDense",
+                      "outlined": "MuiInputLabel-outlined",
+                      "required": "Mui-required",
+                      "root": "MuiInputLabel-root",
+                      "shrink": "MuiInputLabel-shrink",
+                    }
+                  }
+                  htmlFor="ABC-close"
+                  id="ABC-close-label"
+                >
+                  <WithStyles(ForwardRef(FormLabel))
+                    className="MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-shrink MuiInputLabel-outlined"
+                    classes={
+                      Object {
+                        "asterisk": "MuiInputLabel-asterisk",
+                        "disabled": "Mui-disabled",
+                        "error": "Mui-error",
+                        "focused": "Mui-focused",
+                        "required": "Mui-required",
+                      }
+                    }
+                    data-shrink={true}
+                    htmlFor="ABC-close"
+                    id="ABC-close-label"
+                  >
+                    <ForwardRef(FormLabel)
+                      className="MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-shrink MuiInputLabel-outlined"
+                      classes={
+                        Object {
+                          "asterisk": "MuiFormLabel-asterisk MuiInputLabel-asterisk",
+                          "colorSecondary": "MuiFormLabel-colorSecondary",
+                          "disabled": "Mui-disabled Mui-disabled",
+                          "error": "Mui-error Mui-error",
+                          "filled": "MuiFormLabel-filled",
+                          "focused": "Mui-focused Mui-focused",
+                          "required": "Mui-required Mui-required",
+                          "root": "MuiFormLabel-root",
+                        }
+                      }
+                      data-shrink={true}
+                      htmlFor="ABC-close"
+                      id="ABC-close-label"
+                    >
+                      <label
+                        className="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-shrink MuiInputLabel-outlined MuiFormLabel-filled"
+                        data-shrink={true}
+                        htmlFor="ABC-close"
+                        id="ABC-close-label"
+                      >
+                        Close
+                      </label>
+                    </ForwardRef(FormLabel)>
+                  </WithStyles(ForwardRef(FormLabel))>
+                </ForwardRef(InputLabel)>
+              </WithStyles(ForwardRef(InputLabel))>
+              <WithStyles(ForwardRef(OutlinedInput))
+                autoFocus={false}
+                defaultValue={2}
+                fullWidth={false}
+                id="ABC-close"
+                label={
+                  <React.Fragment>
+                    Close
+                  </React.Fragment>
+                }
+                multiline={false}
+                readOnly={true}
+              >
+                <ForwardRef(OutlinedInput)
+                  autoFocus={false}
+                  classes={
+                    Object {
+                      "adornedEnd": "MuiOutlinedInput-adornedEnd",
+                      "adornedStart": "MuiOutlinedInput-adornedStart",
+                      "colorSecondary": "MuiOutlinedInput-colorSecondary",
+                      "disabled": "Mui-disabled",
+                      "error": "Mui-error",
+                      "focused": "Mui-focused",
+                      "input": "MuiOutlinedInput-input",
+                      "inputAdornedEnd": "MuiOutlinedInput-inputAdornedEnd",
+                      "inputAdornedStart": "MuiOutlinedInput-inputAdornedStart",
+                      "inputMarginDense": "MuiOutlinedInput-inputMarginDense",
+                      "inputMultiline": "MuiOutlinedInput-inputMultiline",
+                      "marginDense": "MuiOutlinedInput-marginDense",
+                      "multiline": "MuiOutlinedInput-multiline",
+                      "notchedOutline": "MuiOutlinedInput-notchedOutline",
+                      "root": "MuiOutlinedInput-root",
+                    }
+                  }
+                  defaultValue={2}
+                  fullWidth={false}
+                  id="ABC-close"
+                  label={
+                    <React.Fragment>
+                      Close
+                    </React.Fragment>
+                  }
+                  multiline={false}
+                  readOnly={true}
+                >
+                  <WithStyles(ForwardRef(InputBase))
+                    autoFocus={false}
+                    classes={
+                      Object {
+                        "adornedEnd": "MuiOutlinedInput-adornedEnd",
+                        "adornedStart": "MuiOutlinedInput-adornedStart",
+                        "colorSecondary": "MuiOutlinedInput-colorSecondary",
+                        "disabled": "Mui-disabled",
+                        "error": "Mui-error",
+                        "focused": "Mui-focused",
+                        "input": "MuiOutlinedInput-input",
+                        "inputAdornedEnd": "MuiOutlinedInput-inputAdornedEnd",
+                        "inputAdornedStart": "MuiOutlinedInput-inputAdornedStart",
+                        "inputMarginDense": "MuiOutlinedInput-inputMarginDense",
+                        "inputMultiline": "MuiOutlinedInput-inputMultiline",
+                        "marginDense": "MuiOutlinedInput-marginDense",
+                        "multiline": "MuiOutlinedInput-multiline",
+                        "notchedOutline": null,
+                        "root": "MuiOutlinedInput-root",
+                      }
+                    }
+                    defaultValue={2}
+                    fullWidth={false}
+                    id="ABC-close"
+                    inputComponent="input"
+                    multiline={false}
+                    readOnly={true}
+                    renderSuffix={[Function]}
+                    type="text"
+                  >
+                    <ForwardRef(InputBase)
+                      autoFocus={false}
+                      classes={
+                        Object {
+                          "adornedEnd": "MuiInputBase-adornedEnd MuiOutlinedInput-adornedEnd",
+                          "adornedStart": "MuiInputBase-adornedStart MuiOutlinedInput-adornedStart",
+                          "colorSecondary": "MuiInputBase-colorSecondary MuiOutlinedInput-colorSecondary",
+                          "disabled": "Mui-disabled Mui-disabled",
+                          "error": "Mui-error Mui-error",
+                          "focused": "Mui-focused Mui-focused",
+                          "formControl": "MuiInputBase-formControl",
+                          "fullWidth": "MuiInputBase-fullWidth",
+                          "input": "MuiInputBase-input MuiOutlinedInput-input",
+                          "inputAdornedEnd": "MuiInputBase-inputAdornedEnd MuiOutlinedInput-inputAdornedEnd",
+                          "inputAdornedStart": "MuiInputBase-inputAdornedStart MuiOutlinedInput-inputAdornedStart",
+                          "inputHiddenLabel": "MuiInputBase-inputHiddenLabel",
+                          "inputMarginDense": "MuiInputBase-inputMarginDense MuiOutlinedInput-inputMarginDense",
+                          "inputMultiline": "MuiInputBase-inputMultiline MuiOutlinedInput-inputMultiline",
+                          "inputTypeSearch": "MuiInputBase-inputTypeSearch",
+                          "marginDense": "MuiInputBase-marginDense MuiOutlinedInput-marginDense",
+                          "multiline": "MuiInputBase-multiline MuiOutlinedInput-multiline",
+                          "root": "MuiInputBase-root MuiOutlinedInput-root",
+                        }
+                      }
+                      defaultValue={2}
+                      fullWidth={false}
+                      id="ABC-close"
+                      inputComponent="input"
+                      multiline={false}
+                      readOnly={true}
+                      renderSuffix={[Function]}
+                      type="text"
+                    >
+                      <div
+                        className="MuiInputBase-root MuiOutlinedInput-root MuiInputBase-formControl"
+                        onClick={[Function]}
+                      >
+                        <input
+                          aria-invalid={false}
+                          autoFocus={false}
+                          className="MuiInputBase-input MuiOutlinedInput-input"
+                          defaultValue={2}
+                          disabled={false}
+                          id="ABC-close"
+                          onAnimationStart={[Function]}
+                          onBlur={[Function]}
+                          onChange={[Function]}
+                          onFocus={[Function]}
+                          readOnly={true}
+                          required={false}
+                          type="text"
+                        />
+                        <WithStyles(ForwardRef(NotchedOutline))
+                          className="MuiOutlinedInput-notchedOutline"
+                          label={
+                            <React.Fragment>
+                              Close
+                            </React.Fragment>
+                          }
+                          labelWidth={0}
+                          notched={true}
+                        >
+                          <ForwardRef(NotchedOutline)
+                            className="MuiOutlinedInput-notchedOutline"
+                            classes={
+                              Object {
+                                "legend": "PrivateNotchedOutline-legend-2",
+                                "legendLabelled": "PrivateNotchedOutline-legendLabelled-3",
+                                "legendNotched": "PrivateNotchedOutline-legendNotched-4",
+                                "root": "PrivateNotchedOutline-root-1",
+                              }
+                            }
+                            label={
+                              <React.Fragment>
+                                Close
+                              </React.Fragment>
+                            }
+                            labelWidth={0}
+                            notched={true}
+                          >
+                            <fieldset
+                              aria-hidden={true}
+                              className="PrivateNotchedOutline-root-1 MuiOutlinedInput-notchedOutline"
+                            >
+                              <legend
+                                className="PrivateNotchedOutline-legendLabelled-3 PrivateNotchedOutline-legendNotched-4"
+                              >
+                                <span>
+                                  Close
+                                </span>
+                              </legend>
+                            </fieldset>
+                          </ForwardRef(NotchedOutline)>
+                        </WithStyles(ForwardRef(NotchedOutline))>
+                      </div>
+                    </ForwardRef(InputBase)>
+                  </WithStyles(ForwardRef(InputBase))>
+                </ForwardRef(OutlinedInput)>
+              </WithStyles(ForwardRef(OutlinedInput))>
+            </div>
+          </ForwardRef(FormControl)>
+        </WithStyles(ForwardRef(FormControl))>
+      </ForwardRef(TextField)>
+    </WithStyles(ForwardRef(TextField))>
+  </Styled(WithStyles(ForwardRef(TextField)))>
+  <Styled(WithStyles(ForwardRef(TextField)))
+    InputProps={
+      Object {
+        "readOnly": true,
+      }
+    }
+    defaultValue={1}
+    id="ABC-low"
+    label="Low"
+    variant="outlined"
+  >
+    <WithStyles(ForwardRef(TextField))
+      InputProps={
+        Object {
+          "readOnly": true,
+        }
+      }
+      className="sc-AxjAm inMfCq"
+      defaultValue={1}
+      id="ABC-low"
+      label="Low"
+      variant="outlined"
+    >
+      <ForwardRef(TextField)
+        InputProps={
+          Object {
+            "readOnly": true,
+          }
+        }
+        className="sc-AxjAm inMfCq"
+        classes={
+          Object {
+            "root": "MuiTextField-root",
+          }
+        }
+        defaultValue={1}
+        id="ABC-low"
+        label="Low"
+        variant="outlined"
+      >
+        <WithStyles(ForwardRef(FormControl))
+          className="MuiTextField-root sc-AxjAm inMfCq"
+          color="primary"
+          disabled={false}
+          error={false}
+          fullWidth={false}
+          required={false}
+          variant="outlined"
+        >
+          <ForwardRef(FormControl)
+            className="MuiTextField-root sc-AxjAm inMfCq"
+            classes={
+              Object {
+                "fullWidth": "MuiFormControl-fullWidth",
+                "marginDense": "MuiFormControl-marginDense",
+                "marginNormal": "MuiFormControl-marginNormal",
+                "root": "MuiFormControl-root",
+              }
+            }
+            color="primary"
+            disabled={false}
+            error={false}
+            fullWidth={false}
+            required={false}
+            variant="outlined"
+          >
+            <div
+              className="MuiFormControl-root MuiTextField-root sc-AxjAm inMfCq"
+            >
+              <WithStyles(ForwardRef(InputLabel))
+                htmlFor="ABC-low"
+                id="ABC-low-label"
+              >
+                <ForwardRef(InputLabel)
+                  classes={
+                    Object {
+                      "animated": "MuiInputLabel-animated",
+                      "asterisk": "MuiInputLabel-asterisk",
+                      "disabled": "Mui-disabled",
+                      "error": "Mui-error",
+                      "filled": "MuiInputLabel-filled",
+                      "focused": "Mui-focused",
+                      "formControl": "MuiInputLabel-formControl",
+                      "marginDense": "MuiInputLabel-marginDense",
+                      "outlined": "MuiInputLabel-outlined",
+                      "required": "Mui-required",
+                      "root": "MuiInputLabel-root",
+                      "shrink": "MuiInputLabel-shrink",
+                    }
+                  }
+                  htmlFor="ABC-low"
+                  id="ABC-low-label"
+                >
+                  <WithStyles(ForwardRef(FormLabel))
+                    className="MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-shrink MuiInputLabel-outlined"
+                    classes={
+                      Object {
+                        "asterisk": "MuiInputLabel-asterisk",
+                        "disabled": "Mui-disabled",
+                        "error": "Mui-error",
+                        "focused": "Mui-focused",
+                        "required": "Mui-required",
+                      }
+                    }
+                    data-shrink={true}
+                    htmlFor="ABC-low"
+                    id="ABC-low-label"
+                  >
+                    <ForwardRef(FormLabel)
+                      className="MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-shrink MuiInputLabel-outlined"
+                      classes={
+                        Object {
+                          "asterisk": "MuiFormLabel-asterisk MuiInputLabel-asterisk",
+                          "colorSecondary": "MuiFormLabel-colorSecondary",
+                          "disabled": "Mui-disabled Mui-disabled",
+                          "error": "Mui-error Mui-error",
+                          "filled": "MuiFormLabel-filled",
+                          "focused": "Mui-focused Mui-focused",
+                          "required": "Mui-required Mui-required",
+                          "root": "MuiFormLabel-root",
+                        }
+                      }
+                      data-shrink={true}
+                      htmlFor="ABC-low"
+                      id="ABC-low-label"
+                    >
+                      <label
+                        className="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-shrink MuiInputLabel-outlined MuiFormLabel-filled"
+                        data-shrink={true}
+                        htmlFor="ABC-low"
+                        id="ABC-low-label"
+                      >
+                        Low
+                      </label>
+                    </ForwardRef(FormLabel)>
+                  </WithStyles(ForwardRef(FormLabel))>
+                </ForwardRef(InputLabel)>
+              </WithStyles(ForwardRef(InputLabel))>
+              <WithStyles(ForwardRef(OutlinedInput))
+                autoFocus={false}
+                defaultValue={1}
+                fullWidth={false}
+                id="ABC-low"
+                label={
+                  <React.Fragment>
+                    Low
+                  </React.Fragment>
+                }
+                multiline={false}
+                readOnly={true}
+              >
+                <ForwardRef(OutlinedInput)
+                  autoFocus={false}
+                  classes={
+                    Object {
+                      "adornedEnd": "MuiOutlinedInput-adornedEnd",
+                      "adornedStart": "MuiOutlinedInput-adornedStart",
+                      "colorSecondary": "MuiOutlinedInput-colorSecondary",
+                      "disabled": "Mui-disabled",
+                      "error": "Mui-error",
+                      "focused": "Mui-focused",
+                      "input": "MuiOutlinedInput-input",
+                      "inputAdornedEnd": "MuiOutlinedInput-inputAdornedEnd",
+                      "inputAdornedStart": "MuiOutlinedInput-inputAdornedStart",
+                      "inputMarginDense": "MuiOutlinedInput-inputMarginDense",
+                      "inputMultiline": "MuiOutlinedInput-inputMultiline",
+                      "marginDense": "MuiOutlinedInput-marginDense",
+                      "multiline": "MuiOutlinedInput-multiline",
+                      "notchedOutline": "MuiOutlinedInput-notchedOutline",
+                      "root": "MuiOutlinedInput-root",
+                    }
+                  }
+                  defaultValue={1}
+                  fullWidth={false}
+                  id="ABC-low"
+                  label={
+                    <React.Fragment>
+                      Low
+                    </React.Fragment>
+                  }
+                  multiline={false}
+                  readOnly={true}
+                >
+                  <WithStyles(ForwardRef(InputBase))
+                    autoFocus={false}
+                    classes={
+                      Object {
+                        "adornedEnd": "MuiOutlinedInput-adornedEnd",
+                        "adornedStart": "MuiOutlinedInput-adornedStart",
+                        "colorSecondary": "MuiOutlinedInput-colorSecondary",
+                        "disabled": "Mui-disabled",
+                        "error": "Mui-error",
+                        "focused": "Mui-focused",
+                        "input": "MuiOutlinedInput-input",
+                        "inputAdornedEnd": "MuiOutlinedInput-inputAdornedEnd",
+                        "inputAdornedStart": "MuiOutlinedInput-inputAdornedStart",
+                        "inputMarginDense": "MuiOutlinedInput-inputMarginDense",
+                        "inputMultiline": "MuiOutlinedInput-inputMultiline",
+                        "marginDense": "MuiOutlinedInput-marginDense",
+                        "multiline": "MuiOutlinedInput-multiline",
+                        "notchedOutline": null,
+                        "root": "MuiOutlinedInput-root",
+                      }
+                    }
+                    defaultValue={1}
+                    fullWidth={false}
+                    id="ABC-low"
+                    inputComponent="input"
+                    multiline={false}
+                    readOnly={true}
+                    renderSuffix={[Function]}
+                    type="text"
+                  >
+                    <ForwardRef(InputBase)
+                      autoFocus={false}
+                      classes={
+                        Object {
+                          "adornedEnd": "MuiInputBase-adornedEnd MuiOutlinedInput-adornedEnd",
+                          "adornedStart": "MuiInputBase-adornedStart MuiOutlinedInput-adornedStart",
+                          "colorSecondary": "MuiInputBase-colorSecondary MuiOutlinedInput-colorSecondary",
+                          "disabled": "Mui-disabled Mui-disabled",
+                          "error": "Mui-error Mui-error",
+                          "focused": "Mui-focused Mui-focused",
+                          "formControl": "MuiInputBase-formControl",
+                          "fullWidth": "MuiInputBase-fullWidth",
+                          "input": "MuiInputBase-input MuiOutlinedInput-input",
+                          "inputAdornedEnd": "MuiInputBase-inputAdornedEnd MuiOutlinedInput-inputAdornedEnd",
+                          "inputAdornedStart": "MuiInputBase-inputAdornedStart MuiOutlinedInput-inputAdornedStart",
+                          "inputHiddenLabel": "MuiInputBase-inputHiddenLabel",
+                          "inputMarginDense": "MuiInputBase-inputMarginDense MuiOutlinedInput-inputMarginDense",
+                          "inputMultiline": "MuiInputBase-inputMultiline MuiOutlinedInput-inputMultiline",
+                          "inputTypeSearch": "MuiInputBase-inputTypeSearch",
+                          "marginDense": "MuiInputBase-marginDense MuiOutlinedInput-marginDense",
+                          "multiline": "MuiInputBase-multiline MuiOutlinedInput-multiline",
+                          "root": "MuiInputBase-root MuiOutlinedInput-root",
+                        }
+                      }
+                      defaultValue={1}
+                      fullWidth={false}
+                      id="ABC-low"
+                      inputComponent="input"
+                      multiline={false}
+                      readOnly={true}
+                      renderSuffix={[Function]}
+                      type="text"
+                    >
+                      <div
+                        className="MuiInputBase-root MuiOutlinedInput-root MuiInputBase-formControl"
+                        onClick={[Function]}
+                      >
+                        <input
+                          aria-invalid={false}
+                          autoFocus={false}
+                          className="MuiInputBase-input MuiOutlinedInput-input"
+                          defaultValue={1}
+                          disabled={false}
+                          id="ABC-low"
+                          onAnimationStart={[Function]}
+                          onBlur={[Function]}
+                          onChange={[Function]}
+                          onFocus={[Function]}
+                          readOnly={true}
+                          required={false}
+                          type="text"
+                        />
+                        <WithStyles(ForwardRef(NotchedOutline))
+                          className="MuiOutlinedInput-notchedOutline"
+                          label={
+                            <React.Fragment>
+                              Low
+                            </React.Fragment>
+                          }
+                          labelWidth={0}
+                          notched={true}
+                        >
+                          <ForwardRef(NotchedOutline)
+                            className="MuiOutlinedInput-notchedOutline"
+                            classes={
+                              Object {
+                                "legend": "PrivateNotchedOutline-legend-2",
+                                "legendLabelled": "PrivateNotchedOutline-legendLabelled-3",
+                                "legendNotched": "PrivateNotchedOutline-legendNotched-4",
+                                "root": "PrivateNotchedOutline-root-1",
+                              }
+                            }
+                            label={
+                              <React.Fragment>
+                                Low
+                              </React.Fragment>
+                            }
+                            labelWidth={0}
+                            notched={true}
+                          >
+                            <fieldset
+                              aria-hidden={true}
+                              className="PrivateNotchedOutline-root-1 MuiOutlinedInput-notchedOutline"
+                            >
+                              <legend
+                                className="PrivateNotchedOutline-legendLabelled-3 PrivateNotchedOutline-legendNotched-4"
+                              >
+                                <span>
+                                  Low
+                                </span>
+                              </legend>
+                            </fieldset>
+                          </ForwardRef(NotchedOutline)>
+                        </WithStyles(ForwardRef(NotchedOutline))>
+                      </div>
+                    </ForwardRef(InputBase)>
+                  </WithStyles(ForwardRef(InputBase))>
+                </ForwardRef(OutlinedInput)>
+              </WithStyles(ForwardRef(OutlinedInput))>
+            </div>
+          </ForwardRef(FormControl)>
+        </WithStyles(ForwardRef(FormControl))>
+      </ForwardRef(TextField)>
+    </WithStyles(ForwardRef(TextField))>
+  </Styled(WithStyles(ForwardRef(TextField)))>
+  <Styled(WithStyles(ForwardRef(TextField)))
+    InputProps={
+      Object {
+        "readOnly": true,
+      }
+    }
+    defaultValue={3}
+    id="ABC-high"
+    label="High"
+    variant="outlined"
+  >
+    <WithStyles(ForwardRef(TextField))
+      InputProps={
+        Object {
+          "readOnly": true,
+        }
+      }
+      className="sc-AxjAm inMfCq"
+      defaultValue={3}
+      id="ABC-high"
+      label="High"
+      variant="outlined"
+    >
+      <ForwardRef(TextField)
+        InputProps={
+          Object {
+            "readOnly": true,
+          }
+        }
+        className="sc-AxjAm inMfCq"
+        classes={
+          Object {
+            "root": "MuiTextField-root",
+          }
+        }
+        defaultValue={3}
+        id="ABC-high"
+        label="High"
+        variant="outlined"
+      >
+        <WithStyles(ForwardRef(FormControl))
+          className="MuiTextField-root sc-AxjAm inMfCq"
+          color="primary"
+          disabled={false}
+          error={false}
+          fullWidth={false}
+          required={false}
+          variant="outlined"
+        >
+          <ForwardRef(FormControl)
+            className="MuiTextField-root sc-AxjAm inMfCq"
+            classes={
+              Object {
+                "fullWidth": "MuiFormControl-fullWidth",
+                "marginDense": "MuiFormControl-marginDense",
+                "marginNormal": "MuiFormControl-marginNormal",
+                "root": "MuiFormControl-root",
+              }
+            }
+            color="primary"
+            disabled={false}
+            error={false}
+            fullWidth={false}
+            required={false}
+            variant="outlined"
+          >
+            <div
+              className="MuiFormControl-root MuiTextField-root sc-AxjAm inMfCq"
+            >
+              <WithStyles(ForwardRef(InputLabel))
+                htmlFor="ABC-high"
+                id="ABC-high-label"
+              >
+                <ForwardRef(InputLabel)
+                  classes={
+                    Object {
+                      "animated": "MuiInputLabel-animated",
+                      "asterisk": "MuiInputLabel-asterisk",
+                      "disabled": "Mui-disabled",
+                      "error": "Mui-error",
+                      "filled": "MuiInputLabel-filled",
+                      "focused": "Mui-focused",
+                      "formControl": "MuiInputLabel-formControl",
+                      "marginDense": "MuiInputLabel-marginDense",
+                      "outlined": "MuiInputLabel-outlined",
+                      "required": "Mui-required",
+                      "root": "MuiInputLabel-root",
+                      "shrink": "MuiInputLabel-shrink",
+                    }
+                  }
+                  htmlFor="ABC-high"
+                  id="ABC-high-label"
+                >
+                  <WithStyles(ForwardRef(FormLabel))
+                    className="MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-shrink MuiInputLabel-outlined"
+                    classes={
+                      Object {
+                        "asterisk": "MuiInputLabel-asterisk",
+                        "disabled": "Mui-disabled",
+                        "error": "Mui-error",
+                        "focused": "Mui-focused",
+                        "required": "Mui-required",
+                      }
+                    }
+                    data-shrink={true}
+                    htmlFor="ABC-high"
+                    id="ABC-high-label"
+                  >
+                    <ForwardRef(FormLabel)
+                      className="MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-shrink MuiInputLabel-outlined"
+                      classes={
+                        Object {
+                          "asterisk": "MuiFormLabel-asterisk MuiInputLabel-asterisk",
+                          "colorSecondary": "MuiFormLabel-colorSecondary",
+                          "disabled": "Mui-disabled Mui-disabled",
+                          "error": "Mui-error Mui-error",
+                          "filled": "MuiFormLabel-filled",
+                          "focused": "Mui-focused Mui-focused",
+                          "required": "Mui-required Mui-required",
+                          "root": "MuiFormLabel-root",
+                        }
+                      }
+                      data-shrink={true}
+                      htmlFor="ABC-high"
+                      id="ABC-high-label"
+                    >
+                      <label
+                        className="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-shrink MuiInputLabel-outlined MuiFormLabel-filled"
+                        data-shrink={true}
+                        htmlFor="ABC-high"
+                        id="ABC-high-label"
+                      >
+                        High
+                      </label>
+                    </ForwardRef(FormLabel)>
+                  </WithStyles(ForwardRef(FormLabel))>
+                </ForwardRef(InputLabel)>
+              </WithStyles(ForwardRef(InputLabel))>
+              <WithStyles(ForwardRef(OutlinedInput))
+                autoFocus={false}
+                defaultValue={3}
+                fullWidth={false}
+                id="ABC-high"
+                label={
+                  <React.Fragment>
+                    High
+                  </React.Fragment>
+                }
+                multiline={false}
+                readOnly={true}
+              >
+                <ForwardRef(OutlinedInput)
+                  autoFocus={false}
+                  classes={
+                    Object {
+                      "adornedEnd": "MuiOutlinedInput-adornedEnd",
+                      "adornedStart": "MuiOutlinedInput-adornedStart",
+                      "colorSecondary": "MuiOutlinedInput-colorSecondary",
+                      "disabled": "Mui-disabled",
+                      "error": "Mui-error",
+                      "focused": "Mui-focused",
+                      "input": "MuiOutlinedInput-input",
+                      "inputAdornedEnd": "MuiOutlinedInput-inputAdornedEnd",
+                      "inputAdornedStart": "MuiOutlinedInput-inputAdornedStart",
+                      "inputMarginDense": "MuiOutlinedInput-inputMarginDense",
+                      "inputMultiline": "MuiOutlinedInput-inputMultiline",
+                      "marginDense": "MuiOutlinedInput-marginDense",
+                      "multiline": "MuiOutlinedInput-multiline",
+                      "notchedOutline": "MuiOutlinedInput-notchedOutline",
+                      "root": "MuiOutlinedInput-root",
+                    }
+                  }
+                  defaultValue={3}
+                  fullWidth={false}
+                  id="ABC-high"
+                  label={
+                    <React.Fragment>
+                      High
+                    </React.Fragment>
+                  }
+                  multiline={false}
+                  readOnly={true}
+                >
+                  <WithStyles(ForwardRef(InputBase))
+                    autoFocus={false}
+                    classes={
+                      Object {
+                        "adornedEnd": "MuiOutlinedInput-adornedEnd",
+                        "adornedStart": "MuiOutlinedInput-adornedStart",
+                        "colorSecondary": "MuiOutlinedInput-colorSecondary",
+                        "disabled": "Mui-disabled",
+                        "error": "Mui-error",
+                        "focused": "Mui-focused",
+                        "input": "MuiOutlinedInput-input",
+                        "inputAdornedEnd": "MuiOutlinedInput-inputAdornedEnd",
+                        "inputAdornedStart": "MuiOutlinedInput-inputAdornedStart",
+                        "inputMarginDense": "MuiOutlinedInput-inputMarginDense",
+                        "inputMultiline": "MuiOutlinedInput-inputMultiline",
+                        "marginDense": "MuiOutlinedInput-marginDense",
+                        "multiline": "MuiOutlinedInput-multiline",
+                        "notchedOutline": null,
+                        "root": "MuiOutlinedInput-root",
+                      }
+                    }
+                    defaultValue={3}
+                    fullWidth={false}
+                    id="ABC-high"
+                    inputComponent="input"
+                    multiline={false}
+                    readOnly={true}
+                    renderSuffix={[Function]}
+                    type="text"
+                  >
+                    <ForwardRef(InputBase)
+                      autoFocus={false}
+                      classes={
+                        Object {
+                          "adornedEnd": "MuiInputBase-adornedEnd MuiOutlinedInput-adornedEnd",
+                          "adornedStart": "MuiInputBase-adornedStart MuiOutlinedInput-adornedStart",
+                          "colorSecondary": "MuiInputBase-colorSecondary MuiOutlinedInput-colorSecondary",
+                          "disabled": "Mui-disabled Mui-disabled",
+                          "error": "Mui-error Mui-error",
+                          "focused": "Mui-focused Mui-focused",
+                          "formControl": "MuiInputBase-formControl",
+                          "fullWidth": "MuiInputBase-fullWidth",
+                          "input": "MuiInputBase-input MuiOutlinedInput-input",
+                          "inputAdornedEnd": "MuiInputBase-inputAdornedEnd MuiOutlinedInput-inputAdornedEnd",
+                          "inputAdornedStart": "MuiInputBase-inputAdornedStart MuiOutlinedInput-inputAdornedStart",
+                          "inputHiddenLabel": "MuiInputBase-inputHiddenLabel",
+                          "inputMarginDense": "MuiInputBase-inputMarginDense MuiOutlinedInput-inputMarginDense",
+                          "inputMultiline": "MuiInputBase-inputMultiline MuiOutlinedInput-inputMultiline",
+                          "inputTypeSearch": "MuiInputBase-inputTypeSearch",
+                          "marginDense": "MuiInputBase-marginDense MuiOutlinedInput-marginDense",
+                          "multiline": "MuiInputBase-multiline MuiOutlinedInput-multiline",
+                          "root": "MuiInputBase-root MuiOutlinedInput-root",
+                        }
+                      }
+                      defaultValue={3}
+                      fullWidth={false}
+                      id="ABC-high"
+                      inputComponent="input"
+                      multiline={false}
+                      readOnly={true}
+                      renderSuffix={[Function]}
+                      type="text"
+                    >
+                      <div
+                        className="MuiInputBase-root MuiOutlinedInput-root MuiInputBase-formControl"
+                        onClick={[Function]}
+                      >
+                        <input
+                          aria-invalid={false}
+                          autoFocus={false}
+                          className="MuiInputBase-input MuiOutlinedInput-input"
+                          defaultValue={3}
+                          disabled={false}
+                          id="ABC-high"
+                          onAnimationStart={[Function]}
+                          onBlur={[Function]}
+                          onChange={[Function]}
+                          onFocus={[Function]}
+                          readOnly={true}
+                          required={false}
+                          type="text"
+                        />
+                        <WithStyles(ForwardRef(NotchedOutline))
+                          className="MuiOutlinedInput-notchedOutline"
+                          label={
+                            <React.Fragment>
+                              High
+                            </React.Fragment>
+                          }
+                          labelWidth={0}
+                          notched={true}
+                        >
+                          <ForwardRef(NotchedOutline)
+                            className="MuiOutlinedInput-notchedOutline"
+                            classes={
+                              Object {
+                                "legend": "PrivateNotchedOutline-legend-2",
+                                "legendLabelled": "PrivateNotchedOutline-legendLabelled-3",
+                                "legendNotched": "PrivateNotchedOutline-legendNotched-4",
+                                "root": "PrivateNotchedOutline-root-1",
+                              }
+                            }
+                            label={
+                              <React.Fragment>
+                                High
+                              </React.Fragment>
+                            }
+                            labelWidth={0}
+                            notched={true}
+                          >
+                            <fieldset
+                              aria-hidden={true}
+                              className="PrivateNotchedOutline-root-1 MuiOutlinedInput-notchedOutline"
+                            >
+                              <legend
+                                className="PrivateNotchedOutline-legendLabelled-3 PrivateNotchedOutline-legendNotched-4"
+                              >
+                                <span>
+                                  High
+                                </span>
+                              </legend>
+                            </fieldset>
+                          </ForwardRef(NotchedOutline)>
+                        </WithStyles(ForwardRef(NotchedOutline))>
+                      </div>
+                    </ForwardRef(InputBase)>
+                  </WithStyles(ForwardRef(InputBase))>
+                </ForwardRef(OutlinedInput)>
+              </WithStyles(ForwardRef(OutlinedInput))>
+            </div>
+          </ForwardRef(FormControl)>
+        </WithStyles(ForwardRef(FormControl))>
+      </ForwardRef(TextField)>
+    </WithStyles(ForwardRef(TextField))>
+  </Styled(WithStyles(ForwardRef(TextField)))>
+</MarketList>
+`;

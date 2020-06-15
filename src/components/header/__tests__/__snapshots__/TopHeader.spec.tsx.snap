@@ -1,0 +1,501 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TopHeader Component should render TopHeader 1`] = `
+<Provider
+  store={
+    Object {
+      "clearActions": [Function],
+      "dispatch": [Function],
+      "getActions": [Function],
+      "getState": [Function],
+      "replaceReducer": [Function],
+      "subscribe": [Function],
+    }
+  }
+>
+  <TopHeader>
+    <Styled(WithStyles(ForwardRef(AppBar)))
+      position="static"
+    >
+      <WithStyles(ForwardRef(AppBar))
+        className="sc-AxjAm jMPjWX"
+        position="static"
+      >
+        <ForwardRef(AppBar)
+          className="sc-AxjAm jMPjWX"
+          classes={
+            Object {
+              "colorDefault": "MuiAppBar-colorDefault",
+              "colorInherit": "MuiAppBar-colorInherit",
+              "colorPrimary": "MuiAppBar-colorPrimary",
+              "colorSecondary": "MuiAppBar-colorSecondary",
+              "colorTransparent": "MuiAppBar-colorTransparent",
+              "positionAbsolute": "MuiAppBar-positionAbsolute",
+              "positionFixed": "MuiAppBar-positionFixed",
+              "positionRelative": "MuiAppBar-positionRelative",
+              "positionStatic": "MuiAppBar-positionStatic",
+              "positionSticky": "MuiAppBar-positionSticky",
+              "root": "MuiAppBar-root",
+            }
+          }
+          position="static"
+        >
+          <WithStyles(ForwardRef(Paper))
+            className="MuiAppBar-root MuiAppBar-positionStatic MuiAppBar-colorPrimary sc-AxjAm jMPjWX"
+            component="header"
+            elevation={4}
+            square={true}
+          >
+            <ForwardRef(Paper)
+              className="MuiAppBar-root MuiAppBar-positionStatic MuiAppBar-colorPrimary sc-AxjAm jMPjWX"
+              classes={
+                Object {
+                  "elevation0": "MuiPaper-elevation0",
+                  "elevation1": "MuiPaper-elevation1",
+                  "elevation10": "MuiPaper-elevation10",
+                  "elevation11": "MuiPaper-elevation11",
+                  "elevation12": "MuiPaper-elevation12",
+                  "elevation13": "MuiPaper-elevation13",
+                  "elevation14": "MuiPaper-elevation14",
+                  "elevation15": "MuiPaper-elevation15",
+                  "elevation16": "MuiPaper-elevation16",
+                  "elevation17": "MuiPaper-elevation17",
+                  "elevation18": "MuiPaper-elevation18",
+                  "elevation19": "MuiPaper-elevation19",
+                  "elevation2": "MuiPaper-elevation2",
+                  "elevation20": "MuiPaper-elevation20",
+                  "elevation21": "MuiPaper-elevation21",
+                  "elevation22": "MuiPaper-elevation22",
+                  "elevation23": "MuiPaper-elevation23",
+                  "elevation24": "MuiPaper-elevation24",
+                  "elevation3": "MuiPaper-elevation3",
+                  "elevation4": "MuiPaper-elevation4",
+                  "elevation5": "MuiPaper-elevation5",
+                  "elevation6": "MuiPaper-elevation6",
+                  "elevation7": "MuiPaper-elevation7",
+                  "elevation8": "MuiPaper-elevation8",
+                  "elevation9": "MuiPaper-elevation9",
+                  "outlined": "MuiPaper-outlined",
+                  "root": "MuiPaper-root",
+                  "rounded": "MuiPaper-rounded",
+                }
+              }
+              component="header"
+              elevation={4}
+              square={true}
+            >
+              <header
+                className="MuiPaper-root MuiAppBar-root MuiAppBar-positionStatic MuiAppBar-colorPrimary sc-AxjAm jMPjWX MuiPaper-elevation4"
+              >
+                <WithStyles(ForwardRef(Toolbar))>
+                  <ForwardRef(Toolbar)
+                    classes={
+                      Object {
+                        "dense": "MuiToolbar-dense",
+                        "gutters": "MuiToolbar-gutters",
+                        "regular": "MuiToolbar-regular",
+                        "root": "MuiToolbar-root",
+                      }
+                    }
+                  >
+                    <div
+                      className="MuiToolbar-root MuiToolbar-regular MuiToolbar-gutters"
+                    >
+                      <Styled(WithStyles(ForwardRef(Typography)))
+                        variant="h6"
+                      >
+                        <WithStyles(ForwardRef(Typography))
+                          className="sc-AxhUy cftiGt"
+                          variant="h6"
+                        >
+                          <ForwardRef(Typography)
+                            className="sc-AxhUy cftiGt"
+                            classes={
+                              Object {
+                                "alignCenter": "MuiTypography-alignCenter",
+                                "alignJustify": "MuiTypography-alignJustify",
+                                "alignLeft": "MuiTypography-alignLeft",
+                                "alignRight": "MuiTypography-alignRight",
+                                "body1": "MuiTypography-body1",
+                                "body2": "MuiTypography-body2",
+                                "button": "MuiTypography-button",
+                                "caption": "MuiTypography-caption",
+                                "colorError": "MuiTypography-colorError",
+                                "colorInherit": "MuiTypography-colorInherit",
+                                "colorPrimary": "MuiTypography-colorPrimary",
+                                "colorSecondary": "MuiTypography-colorSecondary",
+                                "colorTextPrimary": "MuiTypography-colorTextPrimary",
+                                "colorTextSecondary": "MuiTypography-colorTextSecondary",
+                                "displayBlock": "MuiTypography-displayBlock",
+                                "displayInline": "MuiTypography-displayInline",
+                                "gutterBottom": "MuiTypography-gutterBottom",
+                                "h1": "MuiTypography-h1",
+                                "h2": "MuiTypography-h2",
+                                "h3": "MuiTypography-h3",
+                                "h4": "MuiTypography-h4",
+                                "h5": "MuiTypography-h5",
+                                "h6": "MuiTypography-h6",
+                                "noWrap": "MuiTypography-noWrap",
+                                "overline": "MuiTypography-overline",
+                                "paragraph": "MuiTypography-paragraph",
+                                "root": "MuiTypography-root",
+                                "srOnly": "MuiTypography-srOnly",
+                                "subtitle1": "MuiTypography-subtitle1",
+                                "subtitle2": "MuiTypography-subtitle2",
+                              }
+                            }
+                            variant="h6"
+                          >
+                            <h6
+                              className="MuiTypography-root sc-AxhUy cftiGt MuiTypography-h6"
+                            >
+                              Watchlist Dashboard
+                            </h6>
+                          </ForwardRef(Typography)>
+                        </WithStyles(ForwardRef(Typography))>
+                      </Styled(WithStyles(ForwardRef(Typography)))>
+                      <styled.input
+                        id="add-symbol-text"
+                        maxLength={5}
+                        onChange={[Function]}
+                        placeholder="Add Symbol"
+                        type="text"
+                        value=""
+                      >
+                        <input
+                          className="sc-AxhCb gUSjtV"
+                          id="add-symbol-text"
+                          maxLength={5}
+                          onChange={[Function]}
+                          placeholder="Add Symbol"
+                          type="text"
+                          value=""
+                        />
+                      </styled.input>
+                      <Styled(WithStyles(ForwardRef(IconButton)))
+                        aria-label="add"
+                        color="inherit"
+                        onClick={[Function]}
+                      >
+                        <WithStyles(ForwardRef(IconButton))
+                          aria-label="add"
+                          className="sc-AxgMl bSHzPj"
+                          color="inherit"
+                          onClick={[Function]}
+                        >
+                          <ForwardRef(IconButton)
+                            aria-label="add"
+                            className="sc-AxgMl bSHzPj"
+                            classes={
+                              Object {
+                                "colorInherit": "MuiIconButton-colorInherit",
+                                "colorPrimary": "MuiIconButton-colorPrimary",
+                                "colorSecondary": "MuiIconButton-colorSecondary",
+                                "disabled": "Mui-disabled",
+                                "edgeEnd": "MuiIconButton-edgeEnd",
+                                "edgeStart": "MuiIconButton-edgeStart",
+                                "label": "MuiIconButton-label",
+                                "root": "MuiIconButton-root",
+                                "sizeSmall": "MuiIconButton-sizeSmall",
+                              }
+                            }
+                            color="inherit"
+                            onClick={[Function]}
+                          >
+                            <WithStyles(ForwardRef(ButtonBase))
+                              aria-label="add"
+                              centerRipple={true}
+                              className="MuiIconButton-root sc-AxgMl bSHzPj MuiIconButton-colorInherit"
+                              disabled={false}
+                              focusRipple={true}
+                              onClick={[Function]}
+                            >
+                              <ForwardRef(ButtonBase)
+                                aria-label="add"
+                                centerRipple={true}
+                                className="MuiIconButton-root sc-AxgMl bSHzPj MuiIconButton-colorInherit"
+                                classes={
+                                  Object {
+                                    "disabled": "Mui-disabled",
+                                    "focusVisible": "Mui-focusVisible",
+                                    "root": "MuiButtonBase-root",
+                                  }
+                                }
+                                disabled={false}
+                                focusRipple={true}
+                                onClick={[Function]}
+                              >
+                                <button
+                                  aria-label="add"
+                                  className="MuiButtonBase-root MuiIconButton-root sc-AxgMl bSHzPj MuiIconButton-colorInherit"
+                                  disabled={false}
+                                  onBlur={[Function]}
+                                  onClick={[Function]}
+                                  onDragLeave={[Function]}
+                                  onFocus={[Function]}
+                                  onKeyDown={[Function]}
+                                  onKeyUp={[Function]}
+                                  onMouseDown={[Function]}
+                                  onMouseLeave={[Function]}
+                                  onMouseUp={[Function]}
+                                  onTouchEnd={[Function]}
+                                  onTouchMove={[Function]}
+                                  onTouchStart={[Function]}
+                                  tabIndex={0}
+                                  type="button"
+                                >
+                                  <span
+                                    className="MuiIconButton-label"
+                                  >
+                                    <WithStyles(ForwardRef(Icon))>
+                                      <ForwardRef(Icon)
+                                        classes={
+                                          Object {
+                                            "colorAction": "MuiIcon-colorAction",
+                                            "colorDisabled": "MuiIcon-colorDisabled",
+                                            "colorError": "MuiIcon-colorError",
+                                            "colorPrimary": "MuiIcon-colorPrimary",
+                                            "colorSecondary": "MuiIcon-colorSecondary",
+                                            "fontSizeInherit": "MuiIcon-fontSizeInherit",
+                                            "fontSizeLarge": "MuiIcon-fontSizeLarge",
+                                            "fontSizeSmall": "MuiIcon-fontSizeSmall",
+                                            "root": "MuiIcon-root",
+                                          }
+                                        }
+                                      >
+                                        <span
+                                          aria-hidden={true}
+                                          className="material-icons MuiIcon-root"
+                                        >
+                                          add_circle
+                                        </span>
+                                      </ForwardRef(Icon)>
+                                    </WithStyles(ForwardRef(Icon))>
+                                  </span>
+                                  <WithStyles(memo)
+                                    center={true}
+                                  >
+                                    <ForwardRef(TouchRipple)
+                                      center={true}
+                                      classes={
+                                        Object {
+                                          "child": "MuiTouchRipple-child",
+                                          "childLeaving": "MuiTouchRipple-childLeaving",
+                                          "childPulsate": "MuiTouchRipple-childPulsate",
+                                          "ripple": "MuiTouchRipple-ripple",
+                                          "ripplePulsate": "MuiTouchRipple-ripplePulsate",
+                                          "rippleVisible": "MuiTouchRipple-rippleVisible",
+                                          "root": "MuiTouchRipple-root",
+                                        }
+                                      }
+                                    >
+                                      <span
+                                        className="MuiTouchRipple-root"
+                                      >
+                                        <TransitionGroup
+                                          childFactory={[Function]}
+                                          component={null}
+                                          exit={true}
+                                        />
+                                      </span>
+                                    </ForwardRef(TouchRipple)>
+                                  </WithStyles(memo)>
+                                </button>
+                              </ForwardRef(ButtonBase)>
+                            </WithStyles(ForwardRef(ButtonBase))>
+                          </ForwardRef(IconButton)>
+                        </WithStyles(ForwardRef(IconButton))>
+                      </Styled(WithStyles(ForwardRef(IconButton)))>
+                      <Styled(WithStyles(ForwardRef(Button)))
+                        onClick={[Function]}
+                        variant="contained"
+                      >
+                        <WithStyles(ForwardRef(Button))
+                          className="sc-AxirZ bCaNle"
+                          onClick={[Function]}
+                          variant="contained"
+                        >
+                          <ForwardRef(Button)
+                            className="sc-AxirZ bCaNle"
+                            classes={
+                              Object {
+                                "colorInherit": "MuiButton-colorInherit",
+                                "contained": "MuiButton-contained",
+                                "containedPrimary": "MuiButton-containedPrimary",
+                                "containedSecondary": "MuiButton-containedSecondary",
+                                "containedSizeLarge": "MuiButton-containedSizeLarge",
+                                "containedSizeSmall": "MuiButton-containedSizeSmall",
+                                "disableElevation": "MuiButton-disableElevation",
+                                "disabled": "Mui-disabled",
+                                "endIcon": "MuiButton-endIcon",
+                                "focusVisible": "Mui-focusVisible",
+                                "fullWidth": "MuiButton-fullWidth",
+                                "iconSizeLarge": "MuiButton-iconSizeLarge",
+                                "iconSizeMedium": "MuiButton-iconSizeMedium",
+                                "iconSizeSmall": "MuiButton-iconSizeSmall",
+                                "label": "MuiButton-label",
+                                "outlined": "MuiButton-outlined",
+                                "outlinedPrimary": "MuiButton-outlinedPrimary",
+                                "outlinedSecondary": "MuiButton-outlinedSecondary",
+                                "outlinedSizeLarge": "MuiButton-outlinedSizeLarge",
+                                "outlinedSizeSmall": "MuiButton-outlinedSizeSmall",
+                                "root": "MuiButton-root",
+                                "sizeLarge": "MuiButton-sizeLarge",
+                                "sizeSmall": "MuiButton-sizeSmall",
+                                "startIcon": "MuiButton-startIcon",
+                                "text": "MuiButton-text",
+                                "textPrimary": "MuiButton-textPrimary",
+                                "textSecondary": "MuiButton-textSecondary",
+                                "textSizeLarge": "MuiButton-textSizeLarge",
+                                "textSizeSmall": "MuiButton-textSizeSmall",
+                              }
+                            }
+                            onClick={[Function]}
+                            variant="contained"
+                          >
+                            <WithStyles(ForwardRef(ButtonBase))
+                              className="MuiButton-root MuiButton-contained sc-AxirZ bCaNle"
+                              component="button"
+                              disabled={false}
+                              focusRipple={true}
+                              focusVisibleClassName="Mui-focusVisible"
+                              onClick={[Function]}
+                              type="button"
+                            >
+                              <ForwardRef(ButtonBase)
+                                className="MuiButton-root MuiButton-contained sc-AxirZ bCaNle"
+                                classes={
+                                  Object {
+                                    "disabled": "Mui-disabled",
+                                    "focusVisible": "Mui-focusVisible",
+                                    "root": "MuiButtonBase-root",
+                                  }
+                                }
+                                component="button"
+                                disabled={false}
+                                focusRipple={true}
+                                focusVisibleClassName="Mui-focusVisible"
+                                onClick={[Function]}
+                                type="button"
+                              >
+                                <button
+                                  className="MuiButtonBase-root MuiButton-root MuiButton-contained sc-AxirZ bCaNle"
+                                  disabled={false}
+                                  onBlur={[Function]}
+                                  onClick={[Function]}
+                                  onDragLeave={[Function]}
+                                  onFocus={[Function]}
+                                  onKeyDown={[Function]}
+                                  onKeyUp={[Function]}
+                                  onMouseDown={[Function]}
+                                  onMouseLeave={[Function]}
+                                  onMouseUp={[Function]}
+                                  onTouchEnd={[Function]}
+                                  onTouchMove={[Function]}
+                                  onTouchStart={[Function]}
+                                  tabIndex={0}
+                                  type="button"
+                                >
+                                  <span
+                                    className="MuiButton-label"
+                                  >
+                                    Refresh Data
+                                  </span>
+                                  <WithStyles(memo)
+                                    center={false}
+                                  >
+                                    <ForwardRef(TouchRipple)
+                                      center={false}
+                                      classes={
+                                        Object {
+                                          "child": "MuiTouchRipple-child",
+                                          "childLeaving": "MuiTouchRipple-childLeaving",
+                                          "childPulsate": "MuiTouchRipple-childPulsate",
+                                          "ripple": "MuiTouchRipple-ripple",
+                                          "ripplePulsate": "MuiTouchRipple-ripplePulsate",
+                                          "rippleVisible": "MuiTouchRipple-rippleVisible",
+                                          "root": "MuiTouchRipple-root",
+                                        }
+                                      }
+                                    >
+                                      <span
+                                        className="MuiTouchRipple-root"
+                                      >
+                                        <TransitionGroup
+                                          childFactory={[Function]}
+                                          component={null}
+                                          exit={true}
+                                        />
+                                      </span>
+                                    </ForwardRef(TouchRipple)>
+                                  </WithStyles(memo)>
+                                </button>
+                              </ForwardRef(ButtonBase)>
+                            </WithStyles(ForwardRef(ButtonBase))>
+                          </ForwardRef(Button)>
+                        </WithStyles(ForwardRef(Button))>
+                      </Styled(WithStyles(ForwardRef(Button)))>
+                    </div>
+                  </ForwardRef(Toolbar)>
+                </WithStyles(ForwardRef(Toolbar))>
+                <Styled(WithStyles(ForwardRef(Snackbar)))
+                  anchorOrigin={
+                    Object {
+                      "horizontal": "center",
+                      "vertical": "top",
+                    }
+                  }
+                  autoHideDuration={5000}
+                  className=""
+                  message=""
+                  onClose={[Function]}
+                  open={false}
+                >
+                  <WithStyles(ForwardRef(Snackbar))
+                    anchorOrigin={
+                      Object {
+                        "horizontal": "center",
+                        "vertical": "top",
+                      }
+                    }
+                    autoHideDuration={5000}
+                    className="sc-AxiKw ePQCgD"
+                    message=""
+                    onClose={[Function]}
+                    open={false}
+                  >
+                    <ForwardRef(Snackbar)
+                      anchorOrigin={
+                        Object {
+                          "horizontal": "center",
+                          "vertical": "top",
+                        }
+                      }
+                      autoHideDuration={5000}
+                      className="sc-AxiKw ePQCgD"
+                      classes={
+                        Object {
+                          "anchorOriginBottomCenter": "MuiSnackbar-anchorOriginBottomCenter",
+                          "anchorOriginBottomLeft": "MuiSnackbar-anchorOriginBottomLeft",
+                          "anchorOriginBottomRight": "MuiSnackbar-anchorOriginBottomRight",
+                          "anchorOriginTopCenter": "MuiSnackbar-anchorOriginTopCenter",
+                          "anchorOriginTopLeft": "MuiSnackbar-anchorOriginTopLeft",
+                          "anchorOriginTopRight": "MuiSnackbar-anchorOriginTopRight",
+                          "root": "MuiSnackbar-root",
+                        }
+                      }
+                      message=""
+                      onClose={[Function]}
+                      open={false}
+                    />
+                  </WithStyles(ForwardRef(Snackbar))>
+                </Styled(WithStyles(ForwardRef(Snackbar)))>
+              </header>
+            </ForwardRef(Paper)>
+          </WithStyles(ForwardRef(Paper))>
+        </ForwardRef(AppBar)>
+      </WithStyles(ForwardRef(AppBar))>
+    </Styled(WithStyles(ForwardRef(AppBar)))>
+  </TopHeader>
+</Provider>
+`;
